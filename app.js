@@ -49,6 +49,9 @@ const app = Vue.createApp({
             }
 
             this.attactPlayer();
+        },
+        surrender() {
+            this.winner = 'monster';
         }
     },
     computed: {
